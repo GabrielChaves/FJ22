@@ -62,7 +62,7 @@ public final class Candlestick {
 		return data;
 	}
 	
-	//Verifica se é do tipo Alta ou Baixa
+	//Verifica se é do tipo Alta ou Baixa. Define como maior em caso de igualdade conforme Exercicio na pag 52
 	public boolean isAlta(){
 		return this.abertura <= this.fechamento;
 	}
