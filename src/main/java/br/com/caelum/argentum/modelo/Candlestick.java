@@ -64,7 +64,7 @@ public final class Candlestick {
 	
 	//Verifica se é do tipo Alta ou Baixa
 	public boolean isAlta(){
-		return this.abertura < this.fechamento;
+		return this.abertura <= this.fechamento;
 	}
 	
 	public boolean isBaixa(){

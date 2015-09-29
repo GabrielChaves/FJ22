@@ -7,7 +7,7 @@ import br.com.caelum.argentum.modelo.Candlestick;
 
 public class TestaCandleBuilder {
 	public static void main (String [] args){
-		CandleBuilder builder = new CandleBuilder();
+		
 		
 		Candlestick candle = new CandleBuilder().comAbertura(40.5)
 				.comFechamento(42.3).comMinimo(39.8).comMaximo(45.0)

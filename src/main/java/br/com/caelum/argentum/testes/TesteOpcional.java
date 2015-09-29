@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.Calendar;
 import java.util.List;
 
+
 import br.com.caelum.argentum.modelo.Candlestick;
 import br.com.caelum.argentum.modelo.CandlestickFactory;
 import br.com.caelum.argentum.modelo.Negociacao;

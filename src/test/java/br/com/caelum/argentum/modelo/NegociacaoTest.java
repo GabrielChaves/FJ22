@@ -1,8 +1,9 @@
 package br.com.caelum.argentum.modelo;
 
 import java.util.Calendar;
+import static org.junit.Assert.*;
 
-import org.junit.Assert;
+
 import org.junit.Test;
 
 public class NegociacaoTest {
@@ -18,7 +19,8 @@ public class NegociacaoTest {
 		n.getData().set(Calendar.DAY_OF_MONTH, 20);
 		
 		//A data permanece 15
-		Assert.assertEquals(15, n.getData().get(Calendar.DAY_OF_MONTH));
+		//Usei aqui um import estatico para o uso de assert
+		assertEquals(15, n.getData().get(Calendar.DAY_OF_MONTH));
 	}
 	
 	@Test(expected=IllegalArgumentException.class)
